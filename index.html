@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS. Shula Mokesh</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+  <body onload="initGame(levels.easy)">
+    <h1>
+        MS. Shula Mokesh
+    </h1>
+    <h2>Shula is a dangeres woman and filled the fiels aroud you with LIVE MINES! 
+        please use your metal ditactor to find and clear the mines, oh,
+        no metal ditactor?! use your your little brain then.
+    </h2>
+    <h3><span id="status"></span> Time elapsed: <span id="timer">0</span> seconds</h3>
+    <table class ="center" id="gameTable">
+        <tbody class = "boardTable"></tbody>
+        
+    </table>
+    
+    <button onclick="initGame(levels.easy)">EASY</button>
+    <button onclick="initGame(levels.medium)">MEDIUM</button>
+    <button onclick="initGame(levels.hard)">HARD</button>
+    
+    <script src="js/main.js"></script>
+   
+   </body>
+</html>
